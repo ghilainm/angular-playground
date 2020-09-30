@@ -1,0 +1,8 @@
+<p>super-form works!</p>
+
+<div [formGroup]="superForm">
+<!--  <app-magic-text-input formControlName="magic-input"></app-magic-text-input>-->
+  <app-magic-text-input-wrapper formControlName="magic-input-wrapper"></app-magic-text-input-wrapper>
+  <button (click)="onSubmit()">Save</button>
+  <button (click)="reset()">Reset</button>
+</div>
